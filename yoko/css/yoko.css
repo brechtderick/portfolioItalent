@@ -1,0 +1,45 @@
+/* variables */
+/*mixins*/
+h3 {
+  color: #de6581;
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+aside {
+  border-bottom: 1px solid #eee;
+}
+
+aside section a {
+  border-bottom: 1px solid #eee;
+}
+
+aside section a:hover {
+  color: #985d6a;
+  background-color: #eee;
+}
+
+footer {
+  background-color: #f7f7f9;
+}
+
+@media (min-width: 768px) {
+  header {
+    background: url(../images/header-medium-bg.jpg) repeat-x top right;
+  }
+  aside {
+    border-top: none;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    background: url(../images/header-bg.jpg) repeat-x top right;
+  }
+}
+ 
+
+ /*# sourceMappingURL= yoko.css.map */

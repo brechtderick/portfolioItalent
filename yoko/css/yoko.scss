@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+h3 {
+	color: $red;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+}
+
+aside {
+	@include border($bordertype:"border-bottom");
+ 	section a{
+		border-bottom: 1px solid $white;
+		&:hover {
+			color: $darkred;
+			background-color: $white;
+		}
+	}
+}
+
+
+
+footer {
+    background-color:#f7f7f9;
+}
+
+@media (min-width: 768px) {
+	header  {
+		background: url(../images/header-medium-bg.jpg) repeat-x top right;
+	}
+    
+    aside{
+        border-top:none;
+    }
+
+}
+
+@media (min-width: 992px)  {
+	header  {
+		background: url(../images/header-bg.jpg) repeat-x top right;
+	}
+
+
+	
+
+}

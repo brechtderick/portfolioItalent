@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yoko in Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/yoko.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+             <picture class="hidden-xs">
+                        <source srcset="images/header.jpg" media="(min-width: 992px)">
+                        <img src="images/header-medium.jpg" alt="Header image">
+            </picture>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                   
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs-inline" href="#">Yoko's Kitchen</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="" class="active">home</a></li>
+                        <li><a href="">classes</a></li>
+                        <li><a href="">catering</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="row">
+            <section class="col-sm-6 col-md-9">
+                <article class="row">
+                    <div class="col-md-5">
+                        <div class="thumbnail">
+                            <img src="images/bok-choi.jpg" alt="Bok Choi" class="img img-responsive center-block">
+                            <div class="caption text-center">Bok Choi</div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <hgroup>
+                            <h2>Japanese Vegetarian</h2>
+                            <h3>Five week course in London</h3>
+                        </hgroup>
+                        <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="col-md-5">
+                        <div class=thumbnail>
+                            <img src="images/teriyaki.jpg" alt="Teriyaki sauce" class="img img-responsive center-block">
+                            <div class="caption text-center">Teriyaki Sauce</div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <hgroup>
+                            <h2>Sauces Masterclass</h2>
+                            <h3>One day workshop</h3>
+                        </hgroup>
+                        <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                    </div>
+
+                </article>
+            </section>
+            <aside class="col-sm-6 col-md-3">
+                <section>
+                    <h2>Popular Recipes</h2>
+                    <ul class="nav nav-pilled nav-stacked">
+                        <li><a href="">Yakitori (grilled chicken)</a></li>
+                        <li><a href="">Tsukune (minced chicken patties)</a></li>
+                        <li><a href="">Okonomiyaki (savory pancakes)</a></li>
+                        <li><a href="">Mizutaki (chicken stew)</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Contact</h2>
+                    <address>Yoko's Kitchen
+						<br /> 27 Redchurch Street
+						<br /> Shoreditch
+						<br /> London E2 7DP</address>
+                </section>
+            </aside>
+        </div>
+        <footer class="text-center">
+            &copy; 2015 Yoko's Kitchen
+        </footer>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

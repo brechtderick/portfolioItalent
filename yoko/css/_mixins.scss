@@ -1,0 +1,5 @@
+/*mixins*/
+
+@mixin border($size:1px, $color:$white, $bordertype:"border") {
+	#{$bordertype}: $size solid $color;
+}
